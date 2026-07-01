@@ -1,81 +1,141 @@
+<<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MADXROHIT</title>
 
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      padding: 20px;
-      background: #0f0f0f;
-      color: white;
+      font-family: Arial, sans-serif;
+      background: radial-gradient(circle at top, #111, #000);
+      color: #fff;
       text-align: center;
     }
 
     h1 {
       color: #00ffcc;
-      font-size: 40px;
+      font-size: 42px;
+      margin-top: 20px;
+      text-shadow: 0 0 15px #00ffcc;
+    }
+
+    p {
+      opacity: 0.9;
     }
 
     h2 {
       color: #ffcc00;
+      margin-bottom: 10px;
     }
 
-    div, section {
-      margin-top: 20px;
-      padding: 10px;
+    h3 {
+      color: #aaa;
+      font-weight: normal;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(0,255,204,0.3);
+      border-radius: 15px;
+      padding: 20px;
+      margin: 15px 0;
+      box-shadow: 0 0 15px rgba(0,255,204,0.1);
+      backdrop-filter: blur(8px);
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+    }
+
+    .stat-box {
+      background: rgba(0,0,0,0.4);
+      border: 1px solid #00ffcc;
+      border-radius: 12px;
+      padding: 15px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #00ffcc;
+      box-shadow: 0 0 10px #00ffcc33;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      padding: 8px;
+      margin: 5px;
+      background: rgba(255,255,255,0.05);
+      border-radius: 8px;
       border: 1px solid #333;
-      border-radius: 10px;
     }
 
     footer {
       margin-top: 30px;
       font-size: 12px;
       color: gray;
+      padding: 20px;
     }
   </style>
-
 </head>
 
 <body>
-  <h1>MADXROHIT</h1>
 
-  <p>HACKING THE SYSTEM...</p>
+  <div class="container">
 
-  <h2>Complete Learning Platform Site</h2>
-  <p>Free For All</p>
+    <h1>MADXROHIT</h1>
+    <p>HACKING THE SYSTEM...</p>
 
-  <h3>Access all premium educational applications in one place.</h3>
+    <h2>Complete Learning Platform Site</h2>
+    <p>Free For All</p>
 
-  <div>
-    <h2>22 Premium Apps</h2>
-    <h2>20K+ Users</h2>
-    <h2>24/7 Support</h2>
+    <h3>Access all premium educational applications in one place.</h3>
+
+    <!-- STATS -->
+    <div class="card stats">
+      <div class="stat-box">22 Premium Apps</div>
+      <div class="stat-box">20K+ Users</div>
+      <div class="stat-box">24/7 Support</div>
+    </div>
+
+    <!-- ABOUT -->
+    <div class="card">
+      <h2>About Developer</h2>
+      <p>MADXROHIT</p>
+      <p>Class 12th (PCMB)</p>
+      <p>Bihar, India</p>
+      <p>Founder - MADXROHIT</p>
+    </div>
+
+    <!-- SKILLS -->
+    <div class="card">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>UI/UX</li>
+        <li>App Development</li>
+        <li>Python</li>
+      </ul>
+    </div>
+
+    <footer>
+      © COPYRIGHT PROTECTED | FREE FOR ALL
+    </footer>
+
   </div>
-
-  <section>
-    <h2>About Developer</h2>
-    <p>MADXROHIT</p>
-    <p>Class 12th (PCMB)</p>
-    <p>Bihar, India</p>
-    <p>Founder - MADXROHIT</p>
-  </section>
-
-  <section>
-    <h2>Skills</h2>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>UI/UX</li>
-      <li>App Development</li>
-      <li>Python</li>
-    </ul>
-  </section>
-
-  <footer>
-    <p>© COPYRIGHT PROTECTED | FREE FOR ALL</p>
-  </footer>
 
 </body>
 </html>
